@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <title>Meme Generator</title>
+</head>
+
+<body class="page">
+  <main class="main">
+  <h1 class="title">MEME GENERATOR</h1>
+  <p class="subtitle">Загрузите картинку, добавьте любые надписи и сохраните мем :))</p>
+  <p class="subtitle">Текст можно отредактировать, изменить его размер, жирность и цвет, кликнув на него.</p>
+
+  <div class="container">
+    
+    <input type="file" id="image-input" accept="image/*">
+
+    <div id="editor-container">
+      <img class="image" />
+    </div>
+
+    <div class="text-container">
+      <input type="text" id="text-input" placeholder="Введите текст">
+      <button id="add-text-btn">Добавить текст</button>
+      <button id="download-btn">Сохранить</button>
+    </div>
+
+  </div>
+
+</main>
+  
+  <script src="./index.js"></script>
+
+</body>
+</html>
